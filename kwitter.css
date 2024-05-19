@@ -1,0 +1,158 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+  background-image: url(loginbg.jpg);
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+}
+
+.header
+{
+	color: rgb(255, 255, 255);
+	font-size: 45px;
+	letter-spacing: 10px;
+	margin-top: 80px;
+	position: relative;
+	left: 1470px;
+	font-family: "Reddit Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	padding-top: 120px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(219, 219, 219, 0.407);float: none;border-radius: 15px;
+	backdrop-filter: blur(8px);
+	position: relative;
+	left: 1400px;
+	height:40%;
+	top:0px
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+	src: url();
+}
+
+#login_button
+{
+	width: 40%;
+	border-radius: 15px;
+	font-family: "Reddit Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 23px;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+#chatlogo
+{
+	height: 50px;
+	width: 50px;
+	src:url("account.gif");
+}
+
+#int{
+	font-family: "Reddit Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.int-text
+{
+	font-family: "Reddit Sans", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.btn:active {
+	background-color: rgb(0, 0, 0);
+	color: white;
+	transform: scale(0.98); 
+}
+
+#user_name
+{
+    border-radius: 30px;
+}
+
+::placeholder {
+	text-align: center; 
+ }
