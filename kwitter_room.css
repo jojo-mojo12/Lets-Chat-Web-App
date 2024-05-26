@@ -1,0 +1,43 @@
+body
+{
+    background-image: url(bg2.png);
+    background-size: cover;
+}
+
+#logout
+{
+    background-color: crimson;
+    position: absolute;
+    top : 20px;
+    right : 400px;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 900;
+}
+
+.font
+{
+    font-family: "Reddit Sans", sans-serif;
+    color: white;
+}
+
+.blue-text
+{
+    color: #008AD8;
+    font-weight: 900;
+}
+
+.header
+{
+    font-weight: 450;
+    font-size: 80px;
+}
+
+#welcome
+{
+    font-size: 30px;
+}
+
+::placeholder
+{
+    align-items: center;
+}
