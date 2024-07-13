@@ -39,5 +39,23 @@ body
 
 ::placeholder
 {
-    align-items: center;
+    text-align: center;
+}
+
+
+#room_name
+{
+    border-radius: 20px;
+}
+
+#rnmdiv
+{
+    color: azure;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 20px;
+    background-color: #ffffff36;
+    width: 400px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 20px;
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head> 
+<head>
     <title>Rooms | Let's Chat Web</title>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
@@ -23,20 +23,20 @@
         <button id="logout" onclick="logout()" class=" btn btn-danger"> <i class='bx bx-log-in-circle'></i> Logout </button>
         <br><br><br>
         <center>
-            <h3 class = "font">Greetings,<span id = "usernm"></span>!</h3>
-            <h5 id = "welcome" class = "font"> Welcome to </h5>
+            <h3 id="un" class="font"></h3>
+            <h5 id="welcome" class="font"> Welcome to </h5>
             <h1 class="header font">    
-                Let's Chat <span class = "blue-text">Web</span>   
-                <img src="m2.png">
+                Let's Chat <span class="blue-text">Web</span>   
             </h1>
-            <h3 id="user name" class="color_white"></h3>
+            <h3 id="user_name" class="color_white"></h3>
             <div class="form-group input_div_room_page">
                 <label class="font">Add Room:</label>
                 <input type="text" id="room_name" class="form_control" placeholder="#RoomName"> 
             </div>
-            <button onclick="addRoom();" class="btn btn-success">#Add Room</button>
+            <button onclick="addRoom();" class="btn btn-success font"><b>Add Room</b></button>
             <br><br><br>
-            <h3 class="color_white font">Rooms <span class = "blue-text">#trending</span> now</h3>
+            <h3 class="color_white font">Rooms <span class="blue-text">#trending</span> now</h3>
+            <h5 class = "font">Tap a room name to jump in and start chatting!</h5>
             <div id="output"></div>
         </center>
     </div>
